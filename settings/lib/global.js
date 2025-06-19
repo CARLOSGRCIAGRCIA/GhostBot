@@ -7,7 +7,7 @@ exports.playVideo = (data) => {
 }
 
 exports.playVideo2 = (data) => {
-  return `${data.resultado[0].title} *(Baixado por TED-BOT)*`
+  return `${data.resultado[0].title} *(Baixado por KTS-BOT)*`
 }
 
 exports.playDocumentResult = (data) => {
@@ -138,11 +138,11 @@ return `• Nome: *${getApk.name}*\n• Pacote do aplicativo à ser enviado: *${
 }
 
 exports.memesImages = (teks) => { 
-return `${teks.titulo} (Baixado por TED-BOT)`
+return `${teks.titulo} (Baixado por KTS-BOT)`
 }
 
 exports.iFunnyVideo = (teks) => { 
-return `${teks.titulo} (Baixado por TED-BOT)`
+return `${teks.titulo} (Baixado por KTS-BOT)`
 }
 
 exports.translator = (bla) => {

@@ -3,9 +3,9 @@ return `Você pode ver a lista de idiomas disponíveis em para usar no tradutor 
 –
 • Exemplificando o uso das funções dos comandos *gtts e tradutor*:
 –
-↳ *Comando:* ${prefix}gtts pt TED
+↳ *Comando:* ${prefix}gtts pt KTS
 *[pt]* - O idioma, o sotaque que ele(a) irá falar no áudio.
-*[TED]* - Vai ser o que será o texto ou frase falado por ele(a).
+*[KTS]* - Vai ser o que será o texto ou frase falado por ele(a).
 –
 ↳ *Comando:* ${prefix}tradutor pt|love you
 *[pt]* - O idioma que vai ser realizado a tradução da palavra ou texto.
@@ -49,7 +49,7 @@ return `Olá @${sender.split("@")[0]}, aqui está as informações sobre meu don
 }
 
 exports.tutorialBasic = (prefix) => {
-return `👤 Olá, eu sou a *TED-BOT*!
+return `👤 Olá, eu sou a *KTS-BOT*!
 • Aqui está um breve tutorial de algumas das minhas funções:
 –
 • Para divertir seu grupo, use: *${prefix}brincadeiras* e saiba todos meus jogos.

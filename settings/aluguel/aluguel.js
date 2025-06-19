@@ -97,7 +97,7 @@ async function processarCobrança(args, from, sasah, tednexmart, enviar, SoDono,
           }, { quoted: sasah });
           await tednexmart.sendMessage(numeroFormatado, { text: `🔑 Aqui está sua chave Pix:\n\n*${chavePix}*` }, { quoted: sasah });
           await tednexmart.sendMessage(numeroFormatado, {
-            text: `> *Nome*: 𖧄 𝐋𝐔𝐂𝐀𝐒 𝐌𝐎𝐃 𝐃𝐎𝐌𝐈𝐍𝐀 𖧄\n\n> *Descrição*: Criador Ofc TED BOT\n\n> 🌟 *O contato dele, caso você precise de ajuda:*\nhttps://wa.me/5599992241471\n\n> 🎥 *Inscreva-se no meu canal para não perder nenhuma novidade:*\nhttps://youtube.com/@ted_bot\n\n> 🌐 *Minha API:* https://tedzinho.online\n\n> 🌐 *Meu site:* https://linktr.ee/tedbox`
+            text: `> *Nome*: 𖧄 CARLOS MOD DOMINA 𖧄\n\n> *Descrição*: Criador Ofc KTS BOT\n\n> 🌟 *O contato dele, caso você precise de ajuda:*\nhttps://wa.me/529516526675\n\n> `
           }, { quoted: sasah });
           await tednexmart.sendMessage(from, { text: `✅ A cobrança de R$${valor} foi enviada para o número ${numeroFormatado}.\nMensagem: ${mensagemCobrança}` }, { quoted: sasah });
           removerCobranca(cobranca);

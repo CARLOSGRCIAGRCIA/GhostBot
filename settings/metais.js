@@ -1,4 +1,4 @@
 // metais.js
 module.exports = {
-  nome: "TED BOT"  // Coloque o nome aqui
+  nome: "KTS BOT"  // Coloque o nome aqui
 }
